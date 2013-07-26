@@ -33,10 +33,12 @@ The development of this program is not started yet, below is how I think it shou
     this is not a project folder, type tomorrow -p $project_name to mark it as a project
 
     $ tomorrow -p "project one"
-    folder /home/reorx/workspace/project_one is marked as project "project one", all folers under it will be considered part of the project.
+    folder /home/reorx/workspace/project_one is marked as project "project one",
+    all folers under it will be considered part of the project.
 
     $ tomorrow
-    you havn't planed anything to do for tomorrow, type tomorrow "sth", or tomorrow -a to add
+    you havn't planed anything to do for tomorrow, type tomorrow "sth",
+    or tomorrow -a to add
 
     $ tomorrow "do sth a"
     [project one] here is what you planed for tomorrow:
@@ -70,7 +72,8 @@ The development of this program is not started yet, below is how I think it shou
     1. do sth a
 
     $ today -h
-    what you planed for today yesterday are read-only, you can not change or delete them, they'll be archived in the database file.
+    what you planed for today yesterday are read-only, you can not change
+    or delete them, they'll be archived in the database file.
 
 
 ``t``
