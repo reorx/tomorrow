@@ -24,7 +24,7 @@ The development of this program is not started yet, below is how I think it shou
 
 
 tomorrow
-````````
+::::::::
 
 ::
 
@@ -62,7 +62,8 @@ tomorrow
     1. do sth a
 
 
-``today``
+today
+:::::
 
 ::
 
@@ -77,7 +78,8 @@ tomorrow
     or delete them, they'll be archived in the database file.
 
 
-``t``
+t
+:
 
 ::
 
