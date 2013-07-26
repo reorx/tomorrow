@@ -6,16 +6,20 @@ A new task scheduler, aimed at quick, clean, and clear.
 Concept
 -------
 
-The whole program contains three command: ``tomorrow``, ``today``, and ``t``.
+The whole program contains three commands: ``tomorrow``, ``today``, and ``t``.
 
-The concept of this program is that you should clearly depart you current todo list
-and what you planed to do or want to remind tomorrow. You should focus on the former,
-and when there's something jumping in your mind, the best way to handle is tag it
-*tomorrow*, then go back to work, not let the thought fly away if it is really belongs
-to tomorrow, if it isn't the most important thing right now, though it is always
-charming to think into the inspiration. So comes this little program, to force us be concentrated, be still, to make the most effecient of our working time. There should always be only two days in our life, **today** and **tomorrow**, there's no "the day after tomorrow".
+The concept of this program is that you should clearly distinguish you current todo list
+with what you planed to do or want to remind tomorrow. You should focus on the former,
+and when something jump into your mind, the best way to handle it is to tag it
+*tomorrow*, then go back to work, not let the thought fly away(it is always
+charming to think into the inspiration), if it isn't the most important thing
+right now, . So comes this little program, to force us be concentrated, be still,
+to make the most effecient of our working time.  There should always be only two
+days in our life, **today** and **tomorrow**, there's no *"the day after tomorrow"*.
 
-What is noticeable is that you can only type out what you plan to do for tomorrow, move or copy one task item to tomorrow is not allowed. This may help if we get lazy and keeping delay tasks again and again.
+What noticeable is that you can only type out what you plan to do for tomorrow,
+move or copy task items to tomorrow is not allowed. This constrains us to be serious
+when we get lazy and keep delaying tasks again and again.
 
 Usage
 -----
@@ -105,7 +109,7 @@ t
 
 ..
 
-    ``t -d`` and ``t $number $another_number`` works the same as ``tomorrow`` does.
+    ``t -d`` and ``t $number $another_number`` work the same as ``tomorrow`` does.
 
 ..
 
@@ -130,7 +134,7 @@ t
 Ideas
 -----
 
-- select whether to show project name in shell prompt or in output.
+- Select whether to show project name in shell prompt or in output.
 
 - option to show complete list of project - tasks
 
