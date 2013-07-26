@@ -6,14 +6,14 @@ A new task scheduler, aimed at quick, clean, and clear.
 Concept
 -------
 
-The whole program contains three command: today, t, and tomorrow
+The whole program contains three command: ``tomorrow``, ``today``, and ``t``.
 
 The concept of this program is that you should clearly depart you current todo list
 and what you planed to do or want to remind tomorrow. You should focus on the former,
 and when there's something jumping in your mind, the best way to handle is tag it
-"tomorrow", then go back to work, not let the thought fly away if it is really belongs
+*tomorrow*, then go back to work, not let the thought fly away if it is really belongs
 to tomorrow, if it isn't the most important thing right now, though it is always
-charming to think into the inspiration. So comes this little program, to force us be concentrated, be still, to make the most effecient of our working time. There should always be only two days in our life, today and tomorrow, there's no "the day after tomorrow".
+charming to think into the inspiration. So comes this little program, to force us be concentrated, be still, to make the most effecient of our working time. There should always be only two days in our life, **today** and **tomorrow**, there's no "the day after tomorrow".
 
 What is noticeable is that you can only type out what you plan to do for tomorrow, move or copy one task item to tomorrow is not allowed. This may help if we get lazy and keeping delay tasks again and again.
 
@@ -26,6 +26,7 @@ The development of this program is not started yet, below is how I think it shou
 ``tomorrow``
 
 ::
+
     $ cd workspace/project_one
 
     $ tomorrow
@@ -61,6 +62,7 @@ The development of this program is not started yet, below is how I think it shou
 ``today``
 
 ::
+
     $ cd workspace/project_one/subfolder
 
     $ today
@@ -98,6 +100,7 @@ The development of this program is not started yet, below is how I think it shou
 ..
 
 ::
+
     $ t 1
     [project one] task "task a" is done, still remain:
     1. task b
