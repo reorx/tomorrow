@@ -41,6 +41,7 @@ tomorrow
     you havn't planed anything to do for tomorrow, type tomorrow "sth",
     or tomorrow -a to add
 
+    # Add
     $ tomorrow "do sth a"
     [project one] here is what you planed for tomorrow:
     1. do sth a
@@ -52,11 +53,13 @@ tomorrow
     1. do sth a
     2. do sth b
 
+    # Swap
     $ tomorrow 2 1
     [project one] Swap 2 and 1, here is what you planed for tomorrow:
     1. do sth b
     2. do sth a
 
+    # Delete
     $ tomorrow -d 1
     [project one] Delete 1, here is what you planed for tomorrow:
     1. do sth a
@@ -88,6 +91,7 @@ t
     $ t
     [project one] no tasks, type t "sth", or t -a to add
 
+    # Add
     $ t "task a"
     [project one] tasks:
     1. task a
@@ -107,10 +111,12 @@ t
 
 ::
 
+    # Done
     $ t 1
-    [project one] task "task a" is done, still remain:
+    [project one] task "task a" is done, 1 task remains:
     1. task b
 
+    # List
     $ t -l
     [project one] all tasks:
 
